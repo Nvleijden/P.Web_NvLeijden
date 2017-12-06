@@ -1,0 +1,125 @@
+body, h2 {
+    margin: 0;
+    font-family: 'Roboto Condensed';
+}
+ /* Header */
+
+header:first-child {
+    background-color: #73D700;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding: 0.5em 0 0;
+}
+header img, header h1, header, header input, header a {
+    margin-bottom: 0;
+    margin: 0;
+}
+
+header a {
+}
+
+header > * {
+    justify-content: center;
+}
+header > img {
+    max-height: 2em;
+    margin-left: 1em;
+}
+
+header > h1 {
+    color: white;
+    margin-right:auto;
+    margin-left: .25em;
+}
+
+header > p {
+    background-color: #444444;
+    height: 2em;
+    color: white;
+    width:100%;
+    margin-bottom: 0;
+    margin-top: .5em;
+    align-self: flex-end;
+    line-height: 2
+}
+
+
+/* Body */
+body > article {
+    background-image: url(../img/western.png);
+}
+form {
+    width: 100%;
+    margin-top: 0; 
+}
+form select {
+    width: 20%;
+    height: 3em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border-width: 1px;
+    background: white;
+    background-image: none;
+    overflow: hidden;
+    border-radius: 0.4em;
+    padding: 0 0 0 .5em;
+    cursor: pointer;
+}
+
+select:first-child {
+    margin-left: 10%;
+}
+select:nth-child(2){
+    margin-right: 10%
+}
+
+section article {
+    margin: 1em 10% 0.5em 10%;
+    max-width: 70em;
+    display: inline-block;
+    border-style: solid;
+    border-color: #C7C7C7;
+    border-width: 1px;
+    border-radius: 0.5em;
+
+}
+
+section h3 {
+    margin-left: 0.5em;
+}
+
+section article p {
+    margin: 1em;
+}
+
+section article footer {
+    border-style: solid;
+    height: 1.5em;
+    border-color: #C7C7C7;
+    border-radius: 0 0 0.5em 0.5em;
+    border-width: 1px 0 0 0;
+    overflow: hidden;
+
+}
+
+section article footer p {
+    margin: 0;
+    display: inline;
+}
+
+section article footer img {
+    max-height: 1.5em;
+    width: 5%;
+    margin-top: 0.2em;
+}
+
+section article footer img:first-child {
+    margin-left: 0.2em;
+}
